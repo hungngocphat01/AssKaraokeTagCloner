@@ -1,0 +1,8 @@
+Dialogue: 0,0:02:23.17,0:02:29.67,Up,,0,0,0,, |Na|ni|ka chi|gau do|ki do|ki da|re wo sa|sou shi|ri|ta|i
+Dialogue: 0,0:02:29.67,0:02:32.86,Up,,0,0,0,, |A|ku|ma de|mo "pu|re"|☆"pu|re"
+Dialogue: 0,0:02:32.86,0:02:36.37,Up,,0,0,0,, |Yap|pa... (hen|ne) ka|o a|ka|i
+Dialogue: 0,0:02:36.99,0:02:43.51,Up,,0,0,0,, |Ko|i wa ma|hou i|ma ka|ra haji|me|ma|sho fu|ta|ri de!
+Dialogue: 0,0:02:43.51,0:02:46.60,Up,,0,0,0,, |Ha|ji|ra|i mo yu|u|ki de
+Dialogue: 0,0:02:46.60,0:02:50.17,Up,,0,0,0,, |Gub|bai... (hen|ne) da|i|ta|n ne
+Dialogue: 0,0:02:50.51,0:02:57.41,Up,,0,0,0,, |(Ki|ite) jou|netsu de sho|u|bu! (jou|ze|tsu ni) ki|mi ni ka|ta|rou ka
+Dialogue: 0,0:02:57.41,0:03:07.88,Up,,0,0,0,, |(Ki|i|te) jin|jin ta|ka|ma|ru a|tsu|i (o|mo|i)

@@ -1,0 +1,8 @@
+Dialogue: 0,0:02:23.17,0:02:29.67,Up,,0,0,0,, {\k21}Na{\k27}ni{\k20}ka {\k24}chi{\k23}gau {\k59}do{\k14}ki {\k32}do{\k123}ki {\k15}da{\k34}re {\k23}wo {\k21}sa{\k41}sou {\k46}shi{\k17}ri{\k22}ta{\k112}i
+Dialogue: 0,0:02:29.67,0:02:32.86,Up,,0,0,0,, {\k34}A{\k17}ku{\k30}ma {\k23}de{\k44}mo {\k44}"pu{\k24}re"{\k21}☆"pu{\k69}re"
+Dialogue: 0,0:02:32.86,0:02:36.37,Up,,0,0,0,, {\k33}Yap{\k46}pa... {\k44}(hen{\k71}ne) {\k18}ka{\k18}o {\k21}a{\k26}ka{\k71}i
+Dialogue: 0,0:02:36.99,0:02:43.51,Up,,0,0,0,, {\k16}Ko{\k22}i {\k20}wa {\k22}ma{\k43}hou {\k43}i{\k24}ma {\k23}ka{\k119}ra {\k49}haji{\k23}me{\k20}ma{\k47}sho {\k39}fu{\k22}ta{\k26}ri {\k78}de!
+Dialogue: 0,0:02:43.51,0:02:46.60,Up,,0,0,0,, {\k15}Ha{\k14}ji{\k31}ra{\k24}i {\k38}mo {\k38}yu{\k26}u{\k28}ki {\k61}de
+Dialogue: 0,0:02:46.60,0:02:50.17,Up,,0,0,0,, {\k44}Gub{\k41}bai... {\k45}(hen{\k62}ne) {\k23}da{\k17}i{\k26}ta{\k24}n {\k81}ne
+Dialogue: 0,0:02:50.51,0:02:57.41,Up,,0,0,0,, {\k30}(Ki{\k15}ite) {\k20}jou{\k44}netsu {\k47}de {\k24}sho{\k63}u{\k24}bu! {\k31}(jou{\k56}ze{\k37}tsu {\k89}ni) {\k25}ki{\k23}mi {\k39}ni {\k21}ka{\k22}ta{\k40}rou {\k53}ka
+Dialogue: 0,0:02:57.41,0:03:07.88,Up,,0,0,0,, {\k21}(Ki{\k17}i{\k19}te) {\k42}jin{\k41}jin {\k27}ta{\k59}ka{\k27}ma{\k38}ru {\k19}a{\k27}tsu{\k39}i {\k26}(o{\k20}mo{\k52}i)

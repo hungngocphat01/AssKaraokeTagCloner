@@ -10,7 +10,6 @@
 The root folder of this script should contain these files:
 * **input_src.txt**: contains the lines that you want to copy karaoke tags from.
 * **input_dest.txt**: contains the lines that you want to paste your tags over.
-* **output.txt**: contains your result lines.
 
     I will further explain how to use these files in the next section.
     You can also open the example files come along with the script to understand more.
@@ -45,7 +44,7 @@ The root folder of this script should contain these files:
     ```
     ... {\fade(100,100)\blur5} {\k21} Fu{\k27}da{\k20}n {\k24}yo{\k23}ri...
     ```
-5. Open **result.txt** and copy all the lines (press **Ctrl-A**, then **Ctrl-C** on your keyboard).
+5. A file named **result.txt** will be generated in the same folder. Open it and copy all its lines (press **Ctrl-A**, then **Ctrl-C** on your keyboard).
 6. Return to Aegisub. Right-click on the first line in your previously selected lines. Click on **Paste over...**.
 7. Tick **Text** and/or other ones if you want to. Finally click **OK**.
 8. Adjust the difference in timing in verse 2.

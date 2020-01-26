@@ -47,5 +47,5 @@ The root folder of this script should contain these files:
 6. Correct your mistakes if you are prompted.
 7. A file named **result.txt** will be generated in the same folder if the process successes. Open it and copy all its lines (press **Ctrl-A**, then **Ctrl-C** on your keyboard).
 8. Return to Aegisub. Right-click on the first line in your previously selected lines. Click on **Paste over...**.
-9. Tick **Text** and/or other ones if you want to. Finally click **OK**.
+9. Tick the box next to **Text**. Scroll down if you cannot find it.
 10. Adjust the difference in timing in verse 2.

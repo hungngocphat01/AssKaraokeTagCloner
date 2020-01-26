@@ -31,20 +31,21 @@ The root folder of this script should contain these files:
 ### Steps
 1. Open Aegisub and copy the lines that you want to use as your karaoke tag "source". Paste them in **input_src.txt**.
 2. Copy the lines that you want to paste the tags over. Paste them in **input_dest.txt**.
-3. Mark your syllable in **input_dest.txt** with pipeline character ```|```. There is no need to replace the spaces in the line with the pipeline character. You have to mark the beginning of your lyric with a pipeline character as well.
+3. Mark your syllable in **input_dest.txt** with the pipeline character ```|```. You have to mark the beginning of your lyric with a pipeline character as well. There is no need to replace the spaces in the line with the pipeline character.
 
     For example (from *Mogyutto "Love" de Sekkin-chuu*):
     ```
     Dialogue: 0,0:02:23.17,0:02:29.67,Up,,0,0,0,, |Na|ni|ka chi|gau do|ki do|ki da|re wo sa|sou shi|ri|ta|i
     ```
-4. Run the script named **program.py**. Correct the mistakes you made in the files if prompted.
-6. Enter **ALL** of the styling tags that you use at the beginning of each line **exactly** if any, without the acute brackets. Type **none** if there is no styling tag.
+4. Run the script named **program.py**.
+5. Enter **ALL** of the styling tags that you use at the beginning of each line **exactly** if any, without the acute brackets. Type **none** if there is no styling tag.
 
     For example, you should enter ```\fade(100,100)\blur5``` if your input looks like this.
     ```
     ... {\fade(100,100)\blur5} {\k21} Fu{\k27}da{\k20}n {\k24}yo{\k23}ri...
-    ```
-5. A file named **result.txt** will be generated in the same folder. Open it and copy all its lines (press **Ctrl-A**, then **Ctrl-C** on your keyboard).
-6. Return to Aegisub. Right-click on the first line in your previously selected lines. Click on **Paste over...**.
-7. Tick **Text** and/or other ones if you want to. Finally click **OK**.
-8. Adjust the difference in timing in verse 2.
+    ``` Correct the mistakes you made in the input files if prompted.
+6. Correct your mistakes if you are prompted.
+6. A file named **result.txt** will be generated in the same folder if the process successes. Open it and copy all its lines (press **Ctrl-A**, then **Ctrl-C** on your keyboard).
+7. Return to Aegisub. Right-click on the first line in your previously selected lines. Click on **Paste over...**.
+8. Tick **Text** and/or other ones if you want to. Finally click **OK**.
+9. Adjust the difference in timing in verse 2.

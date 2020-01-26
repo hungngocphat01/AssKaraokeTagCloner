@@ -4,8 +4,14 @@ def str_ins(str, i, char):
 def str_replace(str, i, char):
     return str[:i] + char + str[i + 1:]
 
+def title():
+    print("Karaoke Tag Cloner")
+    print("Updated 26-Jan-2020")
+    print("By hungngocphat01\n")
 # Main function
 def main():
+    title()
+
     # Declaring files
     try:
         inp_s = open("input_src.txt", mode="r", encoding="utf-8")
@@ -15,7 +21,6 @@ def main():
         return
     outp = open("output.txt", mode="w", encoding="utf-8")
 
-
     # Read lines from input files
     inp_s_lines = inp_s.readlines()
     inp_d_lines = inp_d.readlines()
@@ -24,6 +29,13 @@ def main():
     if (len(inp_s_lines) != len(inp_d_lines)):
         print("The line number of 2 files are different.")
         return
+
+    # Promp to enter styling tags and delete them if any
+    styling = input("Enter your styling tags EXACTLY if any, without the acute brackets. \nType none if your input lines do not contain any styling tag.\nFor example: \\fade(100,100)\\blur3\n=> ")
+    if (styling != "none"):
+        for i in range(0, len(inp_s_lines)):
+            inp_s_lines[i] = inp_s_lines[i].replace("{" + styling + "}", " ")
+
     # Check if each line of 2 files has the same number of dividers (syllable)
     for i in range(0, len(inp_s_lines)):
         src_divs = inp_s_lines[i].count("{")

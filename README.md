@@ -38,7 +38,7 @@ The root folder of this script should contain these files:
     Dialogue: 0,0:02:23.17,0:02:29.67,Up,,0,0,0,, |Na|ni|ka chi|gau do|ki do|ki da|re wo sa|sou shi|ri|ta|i
     ```
 4. Run the script named **program.py**.
-5. Enter **ALL** of the styling tags that you use at the beginning of each line **exactly** if any, without the acute brackets. Type **none** if there is no styling tag.
+5. The program will ask you to enter **ALL** of the styling tags that you use at the beginning of each line **exactly** if any, without the acute brackets. Type **none** if there is no styling tag.
 
     For example, you should enter ```\fade(100,100)\blur5``` if your input looks like this.
     ```

@@ -45,7 +45,7 @@ The root folder of this script should contain these files:
     ... {\fade(100,100)\blur5} {\k21} Fu{\k27}da{\k20}n {\k24}yo{\k23}ri...
     ```
 6. Correct your mistakes if you are prompted.
-7. A file named **result.txt** will be generated in the same folder if the process successes. Open it and copy all its lines (press **Ctrl-A**, then **Ctrl-C** on your keyboard).
+7. A file named **result.txt** will be generated in the same folder if the process completes successfully. Open it and copy all its lines (press **Ctrl-A**, then **Ctrl-C** on your keyboard).
 8. Return to Aegisub. Right-click on the first line in your previously selected lines. Click on **Paste over...**.
 9. Tick the box next to **Text**. Scroll down if you cannot find it.
 10. Adjust the difference in timing in verse 2.

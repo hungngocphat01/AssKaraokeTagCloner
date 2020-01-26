@@ -20,7 +20,7 @@ The root folder of this script should contain these files:
 * Each line of **src** and **dest** MUST has the same number of syllables.
 
     If your input data violates one of the above, the program will halt and you will be prompted to correct your mistakes.
-* Styling tags in **input_src.txt** at the beginning of each line must be removed. The program provide you with an option to do this.
+* Styling tags in **input_src.txt** at the beginning of each line must be removed. The program provides you with an option to do this.
 
     For example, **{\fade(100,100)\blur5}** should be removed.
     ```

@@ -2,7 +2,7 @@
 ## About
 * This small Python script can greatly reduce your effort in timing karaoke syllable-by-syllable in Aegisub.
 * The idea of this script bases off the fact that the difference in karaoke timing between verse 1 and verse 2 of a song is not considerable. This script will extract the karaoke tags from your "source" lines and paste them over your "destination" lines.
-* After using this script, you can paste the result lines over your original line and make some other small adjustments if needed. Much more efficient than re-timing verse 2 of your song syllable-by-syllable.
+* After using this script, you can paste the result lines back into Aegisub and make some other small adjustments if needed. Much more time-saving than re-timing verse 2 of your song syllable-by-syllable again, and totally from scratch.
 
 ## Files needed
 * Python 3.x have to be installed.

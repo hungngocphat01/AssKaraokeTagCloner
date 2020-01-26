@@ -17,7 +17,7 @@ The root folder of this script should contain these files:
 
 ### Warning
 * **input_src.txt** and **input_dest.txt** must has the same number of lines.
-* Each line of **src** and **dest** MUST has the same number of syllable.
+* Each line of **src** and **dest** MUST has the same number of syllables.
 
     If your input data violates one of the above, the program will halt and you will be prompted to correct your mistakes.
 * Styling tags in **input_src.txt** at the beginning of each line must be removed. The program provide you with an option to do this.
@@ -31,7 +31,7 @@ The root folder of this script should contain these files:
 ### Steps
 1. Open Aegisub and copy the lines that you want to use as your karaoke tag "source". Paste them in **input_src.txt**.
 2. Copy the lines that you want to paste the tags over. Paste them in **input_dest.txt**.
-3. Mark your syllable in **input_dest.txt** with the pipeline character ```|```. You have to mark the beginning of your lyric with a pipeline character as well. There is no need to replace the spaces in the line with the pipeline character.
+3. Mark your syllables in **input_dest.txt** with the pipeline character ```|```. You have to mark the beginning of your lyric with a pipeline character as well. There is no need to replace the spaces in the line with pipeline characters. Your newly marked syllables should match what you previously marked in your **input_src.txt**. Pay attention to the number of syllables.
 
     For example (from *Mogyutto "Love" de Sekkin-chuu*):
     ```
@@ -43,9 +43,9 @@ The root folder of this script should contain these files:
     For example, you should enter ```\fade(100,100)\blur5``` if your input looks like this.
     ```
     ... {\fade(100,100)\blur5} {\k21} Fu{\k27}da{\k20}n {\k24}yo{\k23}ri...
-    ``` Correct the mistakes you made in the input files if prompted.
+    ```
 6. Correct your mistakes if you are prompted.
-6. A file named **result.txt** will be generated in the same folder if the process successes. Open it and copy all its lines (press **Ctrl-A**, then **Ctrl-C** on your keyboard).
-7. Return to Aegisub. Right-click on the first line in your previously selected lines. Click on **Paste over...**.
-8. Tick **Text** and/or other ones if you want to. Finally click **OK**.
-9. Adjust the difference in timing in verse 2.
+7. A file named **result.txt** will be generated in the same folder if the process successes. Open it and copy all its lines (press **Ctrl-A**, then **Ctrl-C** on your keyboard).
+8. Return to Aegisub. Right-click on the first line in your previously selected lines. Click on **Paste over...**.
+9. Tick **Text** and/or other ones if you want to. Finally click **OK**.
+10. Adjust the difference in timing in verse 2.

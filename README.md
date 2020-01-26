@@ -27,7 +27,7 @@ The root folder of this script should contain these files:
     ... {\fade(100,100)\blur5} {\k21} Fu{\k27}da{\k20}n {\k24}yo{\k23}ri...
     ```
 * Styling tags located in the middle of the lines (from **input_src.txt**) have to be removed manually if any.
-* Besides karaoke tags (e.g. *{\k21}*), your input lines **must not** contain any acute brackets ```{ }```. Otherwise the program will not work correctly.
+* Besides karaoke tags (e.g. *{\k21}*), your input lines **must not** contain any acute brackets ```{ }```. Otherwise the program will not work correctly. This also means that besides karaoke tags, none of the other kinds of tag is allowed.
 
 ### Steps
 1. Open Aegisub and copy the lines that you want to use as your karaoke tag "source". Paste them in **input_src.txt**.

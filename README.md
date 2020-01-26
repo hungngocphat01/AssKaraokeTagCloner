@@ -1,4 +1,4 @@
-# Ass Karaoke Tag Cloner
+# ASS Karaoke Tag Cloner
 ## About
 * This small Python script can greatly reduce your effort in timing karaoke syllable-by-syllable in Aegisub.
 * The idea of this script bases off the fact that the difference in karaoke timing between verse 1 and verse 2 of a song is not considerable. This script will extract the karaoke tags from your "source" lines and paste them over your "destination" lines.

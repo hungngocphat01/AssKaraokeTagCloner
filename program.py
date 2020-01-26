@@ -34,7 +34,7 @@ def main():
     styling = input("Enter your styling tags EXACTLY if any, without the acute brackets. \nType none if your input lines do not contain any styling tag.\nFor example: \\fade(100,100)\\blur3\n=> ")
     if (styling != "none"):
         for i in range(0, len(inp_s_lines)):
-            inp_s_lines[i] = inp_s_lines[i].replace("{" + styling + "}", " ")
+            inp_s_lines[i] = inp_s_lines[i].replace("{" + styling + "}", "")
 
     # Check if each line of 2 files has the same number of dividers (syllable)
     for i in range(0, len(inp_s_lines)):
